@@ -7,13 +7,10 @@ Checked on 2026-11-01 using Python 3.14.4 in the existing analysis environment.
 - Two accelerated-AP tests, including repeated images, tied scores, ignored
   detections and absent ground truth: passed against the frozen accumulator.
 - Eleven historical synthetic statistical checks: passed.
-- Recovery/drift and probe-trajectory figures regenerated from saved CSVs: passed.
-- All 24 E7/AdamW interval cells rendered from saved results with 8 pt labels;
-  manuscript domain-name capitalization and pooled-mean legend synchronized.
+- Figs. 2 and 3 regenerated from saved CSVs: passed.
+- Fig. 4 rendered from all 24 saved E7/AdamW interval cells with 8 pt labels: passed.
+- Fig. 1 built from figures/fig1_workflow.tex with pdflatex: passed.
 - Common token/private-key/private-Drive-link scan of release text: passed.
-- Figure-label update: the recovery/drift legend now sits above both panels so it
-  no longer covers plotted data, and the interval legend reads "LCB ≥ 0.9". All
-  checks above were rerun after this change: passed; plotted values unchanged.
 
 These checks do not rerun GPU training, verify every historical AP from raw
 predictions, or recompute image-bootstrap confidence intervals from summary CSVs.

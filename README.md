@@ -14,13 +14,17 @@ published or accepted paper. It extends [CD-ViTO](https://github.com/lovelyqian/
 | protocols | Historical PR1/PR2 records and held-out protocol |
 | results/development | Selected development per-run result summaries |
 | results/heldout | All 15 paired held-out sampling summaries and reported confidence intervals |
-| results/figure_data | Original numeric inputs for the included figure renderer |
-| scripts, tests | Accelerated AP implementation, numeric checks and figure generation |
+| results/intervals | Saved paired intervals of the 24 E7/AdamW development cells |
+| results/figure_data | Numeric inputs for Figs. 2 and 3 and per-sampling recovery ratios of the development configurations |
+| figures | LaTeX source of the study-sequence diagram (Fig. 1) |
+| scripts, tests | Accelerated AP implementation, numeric checks and figure renderers |
 
 The E labels in the manuscript correspond to the TN identifiers in filenames.
 This package contains selected result summaries; it is not a complete raw archive
 of all E1--E15 artifacts. PROVENANCE.json records source hashes and packaging edits.
-Historical Vietnamese filenames and argument names are retained.
+Historical Vietnamese filenames and argument names are retained. ap_nhanh.py and
+thong_ke.py are byte-identical in analysis/pc and experiments/TN11/queue; both
+historical locations are kept.
 
 ## CPU verification
 
@@ -31,8 +35,6 @@ python -m pip install -r requirements-analysis.txt
 python scripts/verify_results.py
 python -m unittest discover -s tests -v
 python analysis/pc/kiem_thu.py
-python scripts/render_figures.py
-python scripts/render_intervals.py
 ```
 
 The verification script recomputes means and mean paired relative changes from
@@ -40,9 +42,26 @@ saved per-sampling AP summaries. It does not reconstruct image-bootstrap interva
 from summaries. AP tests compare accelerated accumulation to the frozen reference,
 including repeated images, ties and ignored detections, using synthetic matches.
 The statistical checks also use synthetic inputs. These are not GPU training tests.
-The figure renderers preserve the saved data; the interval renderer uses a 4.8-inch
-canvas and labels of at least 8 pt for the LNCS layout. Saved intervals are not
-recomputed by plotting.
+
+## Figures
+
+| Figure | Input | Generator |
+| --- | --- | --- |
+| Fig. 1 | none (diagram) | figures/fig1_workflow.tex |
+| Fig. 2 | results/figure_data/data_fig3_lr_sweep.csv, data_fig4a_drift.csv | scripts/render_figures.py |
+| Fig. 3 | results/figure_data/data_fig4b_trajectories.csv | scripts/render_figures.py |
+| Fig. 4 | results/intervals/development_intervals.json | scripts/render_intervals.py |
+
+CSV file names keep their historical figure numbers. The renderers plot saved values
+without recomputing them and write to outputs/figures. Figs. 2-4 use a 4.8-inch
+canvas with 8 pt labels for the LNCS layout; Fig. 1 requires a LaTeX distribution
+with the standalone, newtx and TikZ packages:
+
+```sh
+python scripts/render_figures.py
+python scripts/render_intervals.py
+pdflatex -output-directory=outputs/figures figures/fig1_workflow.tex
+```
 
 ## Training prerequisites and execution
 

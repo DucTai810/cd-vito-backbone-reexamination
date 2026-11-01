@@ -266,19 +266,25 @@
   {
     "source": "scripts/render_standalone_figures.py",
     "release": "scripts/render_figures.py",
-    "source_sha256": "0e3b782dcf27464f03466d5790b8deaa1e09e9ec6c9f5ed4b01bc64070972f4e",
-    "transformation": "portable_figure_paths"
+    "source_sha256": "50ef04cc6cd85d9f467bee9720da5b3e818d34955d9ec79ce2a1f85ecf4d4b38",
+    "transformation": "portable_paths"
   },
   {
     "source": "scripts/render_iccies_intervals.py",
     "release": "scripts/render_intervals.py",
-    "source_sha256": "3a54a9a333e09fcbb4fb5212105cfde704b68ca9296a5d529e5394bb8d5f52b4",
-    "transformation": "portable_interval_paths"
+    "source_sha256": "7f820c5ce2f13f656e7cbaff02c0f09c194dae24af276ba08831d3de9990c580",
+    "transformation": "portable_paths"
   },
   {
     "source": "results/TN7_TN13_intervals_20261101/summary.json",
     "release": "results/intervals/development_intervals.json",
     "source_sha256": "b2e78b78e9162b79b48d613439c2f2c67ad9f53ad9fa97cf01f93ced6da4dc75",
     "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/iccies_2027/main.tex",
+    "release": "figures/fig1_workflow.tex",
+    "source_sha256": "0ef222bc34bec9a08c775facc352472fd0406ad9868d169a04c54f427ef50c38",
+    "transformation": "standalone_workflow_figure"
   }
 ]

@@ -1,4 +1,4 @@
-"""Render the existing 24 interval cells at actual LNCS width, without recomputing data."""
+"""Render Fig. 4 from the 24 saved development interval cells; intervals are read, not recomputed."""
 from pathlib import Path
 import json
 import matplotlib
