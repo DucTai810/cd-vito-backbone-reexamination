@@ -11,7 +11,7 @@ published or accepted paper. It extends [CD-ViTO](https://github.com/lovelyqian/
 | training/pc | Historical PC trainer, deterministic prototype extraction, support sampling and patch utilities |
 | experiments/TN11/queue | Frozen T4 trainer and reference AP/statistics implementation |
 | analysis/pc | Historical statistics implementation and synthetic statistical checks |
-| protocols | Historical PR1/PR2 records and held-out protocol |
+| protocols | Historical PR1/PR2 records (Vietnamese) and held-out protocol |
 | results/development | Selected development per-run result summaries |
 | results/heldout | All 15 paired held-out sampling summaries and reported confidence intervals |
 | results/intervals | Saved paired intervals of the 24 E7/AdamW development cells |
@@ -21,8 +21,10 @@ published or accepted paper. It extends [CD-ViTO](https://github.com/lovelyqian/
 
 The E labels in the manuscript correspond to the TN identifiers in filenames.
 This package contains selected result summaries; it is not a complete raw archive
-of all E1--E15 artifacts. PROVENANCE.json records source hashes and packaging edits.
-Historical Vietnamese filenames and argument names are retained. ap_nhanh.py and
+of all E1--E15 artifacts. PROVENANCE.json records source hashes and packaging edits;
+SHA256SUMS.txt lists the hash of every file (`sha256sum -c SHA256SUMS.txt`).
+Historical files keep their Vietnamese identifiers, comments and messages;
+CODE_GUIDE.md translates the terms needed to review them. ap_nhanh.py and
 thong_ke.py are byte-identical in analysis/pc and experiments/TN11/queue; both
 historical locations are kept.
 
