@@ -1,0 +1,272 @@
+[
+  {
+    "source": "src/cdfsod_review/ma_nguon/cdfsod_benchmark_va.patch",
+    "release": "training/pc/cdfsod_benchmark_va.patch",
+    "source_sha256": "2deb21cae8bb6f6f52bb5cb2489e03a26b0a6546af624fe788d639507bcd1388",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/danh_gia_bien_the.py",
+    "release": "training/pc/danh_gia_bien_the.py",
+    "source_sha256": "f0d892d0f592187cfc51f517d5e248e3088f5f78ecf837fca41c9c80b6dfa433",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/kiem_categories.py",
+    "release": "training/pc/kiem_categories.py",
+    "source_sha256": "12dfaa7dc4346a4ae822b3f654785494a9bb853657a73e34925a27200dcff6cf",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/kiem_chia_lo.py",
+    "release": "training/pc/kiem_chia_lo.py",
+    "source_sha256": "ddc277dfe77ea4913a929ec6c20b6108cbd278a03c4562b2fc38e5ca94025bca",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/kiem_dang_ky.py",
+    "release": "training/pc/kiem_dang_ky.py",
+    "source_sha256": "a047a83077b0bd08c4ed05520a51621d093c7180f5bd6de2ab4bfbd3f8bcda2b",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/kiem_import.py",
+    "release": "training/pc/kiem_import.py",
+    "source_sha256": "95891027a0919d1d50ac44409b0f9bc76998c325955176f25cac0d86e04e3e68",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/kiem_quy_tac_s0.py",
+    "release": "training/pc/kiem_quy_tac_s0.py",
+    "source_sha256": "0bd41d3fcc371fe38d31760959accb42d9d8dac576d1124bfecf431d9f81c2c0",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/kiem_train_ext.py",
+    "release": "training/pc/kiem_train_ext.py",
+    "source_sha256": "e3636b2bf93683925225bae7f11bd02c20cc42cabd1642bfac8fb01c64a130f4",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/sinh_lan_lay_mau.py",
+    "release": "training/pc/sinh_lan_lay_mau.py",
+    "source_sha256": "ef438a04fb07178037317115c6fd9ecf399fc1d30080141ae557b12283058fb8",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/tao_tap_p3.py",
+    "release": "training/pc/tao_tap_p3.py",
+    "source_sha256": "169b2102930e0b95c3a9e862387e69fd9babc4832255aabdcc5908d64a2cc934",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/tinh_proto_co_dinh.py",
+    "release": "training/pc/tinh_proto_co_dinh.py",
+    "source_sha256": "05ab404ae80bda829eab3ef826c15928f5559e1395add085e0db17cdf8f49f85",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/train_ext.py",
+    "release": "training/pc/train_ext.py",
+    "source_sha256": "0f73e5e14ee35758002ecbc9ee58c5b1607f8b526dcc3fd1ae4d88e77a503e03",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_builtin_lan_lay_mau.py",
+    "release": "training/pc/va_builtin_lan_lay_mau.py",
+    "source_sha256": "ed6a065f3bc98775b1c0a912284e8961da8b7fa381da368fcac706501f762097",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_categories.py",
+    "release": "training/pc/va_categories.py",
+    "source_sha256": "147b2f55dacc8916d15f47b5c7858832a4d0f6ce18154eb72363f345a68d9f7d",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_devit_chia_lo.py",
+    "release": "training/pc/va_devit_chia_lo.py",
+    "source_sha256": "21e76dd03f4094059f074cc200f9ab0df34eb8c7e65bba975ec040153ed2ba32",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_devit_do_kich_thuoc.py",
+    "release": "training/pc/va_devit_do_kich_thuoc.py",
+    "source_sha256": "f76230507a9673fdd76be20561fb87cf1f3fec5734ac53e8320d1e8e88abac84",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_devit_mo_pttd.py",
+    "release": "training/pc/va_devit_mo_pttd.py",
+    "source_sha256": "7a19b9b916f2a38db7961ad434d09a57b9ae97933a74969dddceb39bda85014c",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_devit_mo_rpn.py",
+    "release": "training/pc/va_devit_mo_rpn.py",
+    "source_sha256": "d3cf2b7517cdf90f753ae32f616a1c4437ef75c8e5dbdc352a05c97c6c569434",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/ma_nguon/va_dinov2_sdpa.py",
+    "release": "training/pc/va_dinov2_sdpa.py",
+    "source_sha256": "00493d96f22ae35ce425eccc0bce416181176bd94392a667920173fe63d85b27",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/phan_tich/ap_nhanh.py",
+    "release": "analysis/pc/ap_nhanh.py",
+    "source_sha256": "c24a28a82620764618a60709a8b97645d3befed98cfdb3d0c69237fe9abe7efd",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/phan_tich/thong_ke.py",
+    "release": "analysis/pc/thong_ke.py",
+    "source_sha256": "474940c99b810f30d0a80e095396d12d55d867ccb35a3e22a6881b26af973184",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "src/cdfsod_review/phan_tich/kiem_thu.py",
+    "release": "analysis/pc/kiem_thu.py",
+    "source_sha256": "9f7f9d5b8a0d610b4c3dc6f4e6d87ae6ec37c0c77457c474d44af4b95905e118",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "experiments/TN11/queue/trainer.py",
+    "release": "experiments/TN11/queue/trainer.py",
+    "source_sha256": "87fbfc847018000a64e2f53c599a630bbf0cd04df49174f51e0f31857588938c",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "experiments/TN11/queue/ap_nhanh.py",
+    "release": "experiments/TN11/queue/ap_nhanh.py",
+    "source_sha256": "c24a28a82620764618a60709a8b97645d3befed98cfdb3d0c69237fe9abe7efd",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "experiments/TN11/queue/thong_ke.py",
+    "release": "experiments/TN11/queue/thong_ke.py",
+    "source_sha256": "474940c99b810f30d0a80e095396d12d55d867ccb35a3e22a6881b26af973184",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "scripts/tn11_fast_ap.py",
+    "release": "scripts/tn11_fast_ap.py",
+    "source_sha256": "93a81a798e9532e97d4c1c8b65bf7110b8724479707aeb35536a87669e52b70a",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "tests/test_tn11_fast_ap.py",
+    "release": "tests/test_tn11_fast_ap.py",
+    "source_sha256": "b366e376250d92f62da6ba15a33e125e9bd0ad972a7612ef5e3258213805b0d7",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/revision_20261101/review_evidence/PR1_as_committed.md",
+    "release": "protocols/PR1_as_committed.md",
+    "source_sha256": "6770096654bd4811ca989adfa90c9b4f3c1e33ec0294f5bc3819519a515f8740",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/revision_20261101/review_evidence/PR2_as_committed.md",
+    "release": "protocols/PR2_as_committed.md",
+    "source_sha256": "a8e3e08387eaff545f5324a0f6010145a5802a361fe4580c11612d56db927225",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "experiments/TN11/queue/protocol.json",
+    "release": "protocols/tn11_protocol.json",
+    "source_sha256": "a80450f93d48006cf9ce9eecb2418df99651a105258c818d385a4461c7c631ba",
+    "transformation": "omit_private_preparation_account"
+  },
+  {
+    "source": "results/TN11/statistics/per_split_statistics.csv",
+    "release": "results/heldout/per_split_statistics.csv",
+    "source_sha256": "6f5461c4d91f3d33dce8f03725f465c868334de3a8fef2bb80813c080ba9a6b6",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/TN11/statistics/heldout_statistics.csv",
+    "release": "results/heldout/heldout_statistics.csv",
+    "source_sha256": "e7ec1f0ba4454065299dd5675ff8a1f168a2428c06998f07f836a4045d391bec",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN4_all18_short_schedule.csv",
+    "release": "results/development/TN4_all18_short_schedule.csv",
+    "source_sha256": "036556d46181f6438c54d6e42ccd409a15b24a6f112ae7330e8df425d8533843",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN9_all75_evaluations.csv",
+    "release": "results/development/TN9_all75_evaluations.csv",
+    "source_sha256": "893b38fcadde8f1502bf9d302e55f8b3bdcc2ca91874f165d03d72f6fbbf5011",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN10_all9_full_schedule.csv",
+    "release": "results/development/TN10_all9_full_schedule.csv",
+    "source_sha256": "68200fadfc079b050d901eae2d0cc9d155083839791055ce0437e22da4f802cc",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN13_valid72_PC_runs.csv",
+    "release": "results/development/TN13_valid72_PC_runs.csv",
+    "source_sha256": "78492ea97be1b1ece44202af07e41c9b21765e384cd2a60d0b25cce8b28bd7dd",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN15_recomputed_recovery_ratios.csv",
+    "release": "results/development/TN15_recomputed_recovery_ratios.csv",
+    "source_sha256": "f8980859e54df50d899eb5ca66a8f07ef13b5b61e6ad2cfb55729e5fbad20f8c",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN3_fresh_s5_s9_at_r001.csv",
+    "release": "results/development/TN3_fresh_s5_s9_at_r001.csv",
+    "source_sha256": "89c3715622733bb8df26b9d236e42fff1caff211d897bc5e657c2b61502cadd3",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "results/development_audit_20261101/TN14_all27_reduced_grid.csv",
+    "release": "results/development/TN14_all27_reduced_grid.csv",
+    "source_sha256": "501d39c6cb606779321706238e62b34eb6c3b53755bcfe3319e623b120a718ce",
+    "transformation": "remove_account_attribution"
+  },
+  {
+    "source": "paper/hinh/data_fig3_lr_sweep.csv",
+    "release": "results/figure_data/data_fig3_lr_sweep.csv",
+    "source_sha256": "1549119ec18c8f2bbbf51f21ca596ec72bcc26d12d294a5deff4728686dcc6cf",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/hinh/data_fig4a_drift.csv",
+    "release": "results/figure_data/data_fig4a_drift.csv",
+    "source_sha256": "0bdffbff668b20825e473f92e2322c29e4cf57438a81b468085470f88773906d",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/hinh/data_fig4b_trajectories.csv",
+    "release": "results/figure_data/data_fig4b_trajectories.csv",
+    "source_sha256": "bff8a8b3ced1a1ced9bfe599e71189b50c60fef279ea8aa9af6eac45ab96df36",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/hinh/data_fig_last_blocks.csv",
+    "release": "results/figure_data/data_fig_last_blocks.csv",
+    "source_sha256": "439e4a623645c735ffd9c8937fad6da406d4bc297c63bca1137308b42588b5ef",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "paper/hinh/data_fig_overview.csv",
+    "release": "results/figure_data/data_fig_overview.csv",
+    "source_sha256": "5b26eff6d36578fbd9207d4ff6d7a37484fe1446faae5c435589185f772286c2",
+    "transformation": "UTF-8 / LF normalization only"
+  },
+  {
+    "source": "scripts/render_standalone_figures.py",
+    "release": "scripts/render_figures.py",
+    "source_sha256": "46688fda58d260374a6f58ac5159ef597f1eab3096767887c2820e2213cdedfb",
+    "transformation": "portable_figure_paths"
+  }
+]

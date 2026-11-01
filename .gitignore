@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+.env
+.secrets/
+outputs/
+datasets/
+checkpoints/
+*.pth
+*.pkl
+*.zip

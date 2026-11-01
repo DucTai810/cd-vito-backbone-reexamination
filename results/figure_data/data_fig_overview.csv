@@ -1,0 +1,100 @@
+configuration,domain,sampling,R
+"Full unfreeze, shared LR ($r$=1)",artaxor,s0,0.0030
+"Full unfreeze, shared LR ($r$=1)",artaxor,s1,0.0026
+"Full unfreeze, shared LR ($r$=1)",artaxor,s2,0.0018
+"Full unfreeze, shared LR ($r$=1)",clipart1k,s0,0.0014
+"Full unfreeze, shared LR ($r$=1)",clipart1k,s1,0.0023
+"Full unfreeze, shared LR ($r$=1)",clipart1k,s2,0.0015
+"Full unfreeze, shared LR ($r$=1)",neu-det,s0,0.2241
+"Full unfreeze, shared LR ($r$=1)",neu-det,s1,0.1193
+"Full unfreeze, shared LR ($r$=1)",neu-det,s2,0.1803
+"Original setting C0 (fp16, +RPN)",artaxor,s0,0.0032
+"Original setting C0 (fp16, +RPN)",artaxor,s1,0.0045
+"Original setting C0 (fp16, +RPN)",artaxor,s2,0.0044
+"Original setting C0 (fp16, +RPN)",clipart1k,s0,0.0026
+"Original setting C0 (fp16, +RPN)",clipart1k,s1,0.0028
+"Original setting C0 (fp16, +RPN)",clipart1k,s2,0.0014
+"Original setting C0 (fp16, +RPN)",neu-det,s0,0.1923
+"Original setting C0 (fp16, +RPN)",neu-det,s1,0.2551
+"Original setting C0 (fp16, +RPN)",neu-det,s2,0.2690
+C0 with bf16,artaxor,s0,0.0054
+C0 with bf16,artaxor,s1,0.0049
+C0 with bf16,artaxor,s2,0.0030
+C0 with bf16,clipart1k,s0,0.0014
+C0 with bf16,clipart1k,s1,0.0013
+C0 with bf16,clipart1k,s2,0.0011
+C0 with bf16,neu-det,s0,0.1344
+C0 with bf16,neu-det,s1,0.2105
+C0 with bf16,neu-det,s2,0.2446
+Prototype refresh ($r$=1),artaxor,s0,0.0054
+Prototype refresh ($r$=1),artaxor,s1,0.0048
+Prototype refresh ($r$=1),artaxor,s2,0.0082
+Prototype refresh ($r$=1),clipart1k,s0,0.0004
+Prototype refresh ($r$=1),clipart1k,s1,0.0025
+Prototype refresh ($r$=1),clipart1k,s2,0.0005
+Prototype refresh ($r$=1),neu-det,s0,0.1369
+Prototype refresh ($r$=1),neu-det,s1,0.1272
+Prototype refresh ($r$=1),neu-det,s2,0.2647
+Smaller backbone ViT-B ($r$=1),artaxor,s0,0.0070
+Smaller backbone ViT-B ($r$=1),artaxor,s1,0.0047
+Smaller backbone ViT-B ($r$=1),artaxor,s2,0.0030
+Smaller backbone ViT-B ($r$=1),clipart1k,s0,0.0017
+Smaller backbone ViT-B ($r$=1),clipart1k,s1,0.0039
+Smaller backbone ViT-B ($r$=1),clipart1k,s2,0.0010
+Smaller backbone ViT-B ($r$=1),neu-det,s0,0.1695
+Smaller backbone ViT-B ($r$=1),neu-det,s1,0.1252
+Smaller backbone ViT-B ($r$=1),neu-det,s2,0.0977
+1-shot ($r$=1),artaxor,s0,0.0079
+1-shot ($r$=1),artaxor,s1,0.0034
+1-shot ($r$=1),artaxor,s2,0.0024
+1-shot ($r$=1),clipart1k,s0,0.0007
+1-shot ($r$=1),clipart1k,s1,0.0083
+1-shot ($r$=1),clipart1k,s2,0.0005
+1-shot ($r$=1),neu-det,s0,0.1572
+1-shot ($r$=1),neu-det,s1,0.0154
+1-shot ($r$=1),neu-det,s2,0.0386
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",artaxor,s0,0.0052
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",artaxor,s1,0.0082
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",artaxor,s2,0.0035
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",clipart1k,s0,0.0022
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",clipart1k,s1,0.0058
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",clipart1k,s2,0.0026
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",neu-det,s0,0.2595
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",neu-det,s1,0.2673
+"L2-SP anchor, $\alpha$=$10^{-3}$ ($r$=1)",neu-det,s2,0.2372
+Lower LR ($r$=$10^{-2}$),artaxor,s0,0.1456
+Lower LR ($r$=$10^{-2}$),artaxor,s1,0.0143
+Lower LR ($r$=$10^{-2}$),artaxor,s2,0.0069
+Lower LR ($r$=$10^{-2}$),clipart1k,s0,0.0008
+Lower LR ($r$=$10^{-2}$),clipart1k,s1,0.0091
+Lower LR ($r$=$10^{-2}$),clipart1k,s2,0.0037
+Lower LR ($r$=$10^{-2}$),neu-det,s0,1.2210
+Lower LR ($r$=$10^{-2}$),neu-det,s1,0.4989
+Lower LR ($r$=$10^{-2}$),neu-det,s2,1.1145
+LP-FT ($r$=$10^{-2}$),artaxor,s0,0.0580
+LP-FT ($r$=$10^{-2}$),artaxor,s1,0.0045
+LP-FT ($r$=$10^{-2}$),artaxor,s2,0.9224
+LP-FT ($r$=$10^{-2}$),clipart1k,s0,0.0005
+LP-FT ($r$=$10^{-2}$),clipart1k,s1,0.0040
+LP-FT ($r$=$10^{-2}$),clipart1k,s2,0.0017
+LP-FT ($r$=$10^{-2}$),neu-det,s0,0.6137
+LP-FT ($r$=$10^{-2}$),neu-det,s1,1.1449
+LP-FT ($r$=$10^{-2}$),neu-det,s2,1.0362
+Last 12 blocks only ($r$=$10^{-2}$),artaxor,s0,1.0277
+Last 12 blocks only ($r$=$10^{-2}$),artaxor,s1,1.0364
+Last 12 blocks only ($r$=$10^{-2}$),artaxor,s2,1.0230
+Last 12 blocks only ($r$=$10^{-2}$),clipart1k,s0,1.0222
+Last 12 blocks only ($r$=$10^{-2}$),clipart1k,s1,1.0184
+Last 12 blocks only ($r$=$10^{-2}$),clipart1k,s2,1.0186
+Last 12 blocks only ($r$=$10^{-2}$),neu-det,s0,1.0687
+Last 12 blocks only ($r$=$10^{-2}$),neu-det,s1,1.0690
+Last 12 blocks only ($r$=$10^{-2}$),neu-det,s2,1.0334
+"AdamW + LLRD ($r$=0.316, 0.9)",artaxor,s0,1.1405
+"AdamW + LLRD ($r$=0.316, 0.9)",artaxor,s1,1.2589
+"AdamW + LLRD ($r$=0.316, 0.9)",artaxor,s2,1.0948
+"AdamW + LLRD ($r$=0.316, 0.9)",clipart1k,s0,1.0835
+"AdamW + LLRD ($r$=0.316, 0.9)",clipart1k,s1,1.0987
+"AdamW + LLRD ($r$=0.316, 0.9)",clipart1k,s2,1.0640
+"AdamW + LLRD ($r$=0.316, 0.9)",neu-det,s0,1.4741
+"AdamW + LLRD ($r$=0.316, 0.9)",neu-det,s1,1.3596
+"AdamW + LLRD ($r$=0.316, 0.9)",neu-det,s2,1.3179

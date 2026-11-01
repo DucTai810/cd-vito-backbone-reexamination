@@ -1,0 +1,19 @@
+name,dataset,rank,split,AP,steps,GPU,full_schedule
+L_artaxor_h4_r1_s0_fp16_steps20,artaxor,4,0,46.7339,20,Tesla T4,False
+L_artaxor_h16_r1_s0_fp16_steps20,artaxor,16,0,46.7332,20,Tesla T4,False
+L_clipart1k_h4_r1_s0_fp16_steps20,clipart1k,4,0,30.3957,20,Tesla T4,False
+L_clipart1k_h16_r1_s0_fp16_steps20,clipart1k,16,0,30.2622,20,Tesla T4,False
+L_neu-det_h4_r1_s0_fp16_steps20,neu-det,4,0,8.5346,20,Tesla T4,False
+L_neu-det_h16_r1_s0_fp16_steps20,neu-det,16,0,8.4676,20,Tesla T4,False
+L_artaxor_h4_r1_s1_fp16_steps20,artaxor,4,1,42.973,20,Tesla T4,False
+L_artaxor_h16_r1_s1_fp16_steps20,artaxor,16,1,43.0683,20,Tesla T4,False
+L_clipart1k_h4_r1_s1_fp16_steps20,clipart1k,4,1,32.0158,20,Tesla T4,False
+L_clipart1k_h16_r1_s1_fp16_steps20,clipart1k,16,1,32.0977,20,Tesla T4,False
+L_neu-det_h4_r1_s1_fp16_steps20,neu-det,4,1,8.3726,20,Tesla T4,False
+L_neu-det_h16_r1_s1_fp16_steps20,neu-det,16,1,8.4341,20,Tesla T4,False
+L_artaxor_h4_r1_s2_fp16_steps20,artaxor,4,2,50.1797,20,Tesla T4,False
+L_artaxor_h16_r1_s2_fp16_steps20,artaxor,16,2,50.5254,20,Tesla T4,False
+L_clipart1k_h4_r1_s2_fp16_steps20,clipart1k,4,2,32.2232,20,Tesla T4,False
+L_clipart1k_h16_r1_s2_fp16_steps20,clipart1k,16,2,32.5942,20,Tesla T4,False
+L_neu-det_h4_r1_s2_fp16_steps20,neu-det,4,2,9.5241,20,Tesla T4,False
+L_neu-det_h16_r1_s2_fp16_steps20,neu-det,16,2,9.7172,20,Tesla T4,False

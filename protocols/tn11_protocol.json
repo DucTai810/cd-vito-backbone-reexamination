@@ -1,0 +1,121 @@
+{
+  "id": "TN11-T4-FP16-20261028",
+  "datasets": {
+    "dior": {
+      "label": "DIOR",
+      "steps": 500,
+      "config_path": "CDFSOD-benchmark/configs/dior/vitl_shot10_dior_finetune.yaml",
+      "config_sha256": "ad26044b0be82280337b4b0299d5613c27e687eba7f3606e091e6142159ff37f",
+      "prototypes": {
+        "0": "DIOR_10shot.vitl14.bbox.p10.sk.pkl",
+        "1": "DIOR_10shot_s1.vitl14.bbox.p10.sk.pkl",
+        "2": "DIOR_10shot_s2.vitl14.bbox.p10.sk.pkl",
+        "3": "DIOR_10shot_s3.vitl14.bbox.p10.sk.pkl",
+        "4": "DIOR_10shot_s4.vitl14.bbox.p10.sk.pkl"
+      },
+      "train_names": {
+        "0": "DIOR_10shot",
+        "1": "DIOR_10shot_s1",
+        "2": "DIOR_10shot_s2",
+        "3": "DIOR_10shot_s3",
+        "4": "DIOR_10shot_s4"
+      }
+    },
+    "uodd": {
+      "label": "UODD",
+      "steps": 100,
+      "config_path": "CDFSOD-benchmark/configs/uodd/vitl_shot10_uodd_finetune.yaml",
+      "config_sha256": "ae5fb5ff67657c8f66b039a44c13e695ca4305780fbd9ae67431662876b46994",
+      "prototypes": {
+        "0": "UODD_10shot.vitl14.bbox.p10.sk.pkl",
+        "1": "UODD_10shot_s1.vitl14.bbox.p10.sk.pkl",
+        "2": "UODD_10shot_s2.vitl14.bbox.p10.sk.pkl",
+        "3": "UODD_10shot_s3.vitl14.bbox.p10.sk.pkl",
+        "4": "UODD_10shot_s4.vitl14.bbox.p10.sk.pkl"
+      },
+      "train_names": {
+        "0": "UODD_10shot",
+        "1": "UODD_10shot_s1",
+        "2": "UODD_10shot_s2",
+        "3": "UODD_10shot_s3",
+        "4": "UODD_10shot_s4"
+      }
+    },
+    "fish": {
+      "label": "FISH",
+      "steps": 200,
+      "config_path": "CDFSOD-benchmark/configs/fish/vitl_shot10_fish_finetune.yaml",
+      "config_sha256": "5c55c2569d045c721dcc4790863f0744a2423b1d2363205161582e4bdc49b283",
+      "prototypes": {
+        "0": "FISH_10shot.vitl14.bbox.p10.sk.pkl",
+        "1": "FISH_10shot_s1.vitl14.bbox.p10.sk.pkl",
+        "2": "FISH_10shot_s2.vitl14.bbox.p10.sk.pkl",
+        "3": "FISH_10shot_s3.vitl14.bbox.p10.sk.pkl",
+        "4": "FISH_10shot_s4.vitl14.bbox.p10.sk.pkl"
+      },
+      "train_names": {
+        "0": "FISH_10shot",
+        "1": "FISH_10shot_s1",
+        "2": "FISH_10shot_s2",
+        "3": "FISH_10shot_s3",
+        "4": "FISH_10shot_s4"
+      }
+    }
+  },
+  "splits": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seed": 0,
+  "prepared_inputs_sha256": "d9f7999d8ac8e02b1acb0043485c5eaec15b0a57dc27141cba1337dbf9a06594",
+  "initial_sha256": "be377c360497230d9d2dc9bd81a5ef5413ef91f250dd48c99b584294aae71d29",
+  "trainer_sha256": "4b517487caeda338481844620a4d320e2bf36a6fdee7032a180446eb9e8aba4d",
+  "precision": "FP16_GradScaler",
+  "gpu": "Tesla T4",
+  "microbatch": 4,
+  "accumulation": 4,
+  "effective_batch": 16,
+  "configurations": {
+    "A_default": {
+      "trainer_args": [
+        "--mo-pttd",
+        "khong",
+        "--toi-uu",
+        "sgd",
+        "--so-hoc",
+        "fp16"
+      ],
+      "lr_and_weight_decay": "published_dataset_config_unchanged"
+    },
+    "final_recipe": {
+      "trainer_args": [
+        "--mo-pttd",
+        "toan_bo",
+        "--ti-le-lr-pttd",
+        "0.01",
+        "--toi-uu",
+        "adamw",
+        "--llrd",
+        "0.9",
+        "--so-hoc",
+        "fp16"
+      ],
+      "head_lr": 0.0001,
+      "weight_decay": 0.05
+    }
+  },
+  "statistics": {
+    "primary": "final_recipe versus A_default under reduced protocol",
+    "bootstrap": "paired split and image, B=2000, seed=0",
+    "fixed_datasets": true,
+    "delta_rel": 0.0773,
+    "sensitivity": "image-only bootstrap; report all five split values",
+    "limits": "No A-tuned comparison, no SOTA or component-only causal claim"
+  },
+  "selection": "Frozen dev recipe; no held-out AP or predictions read for selection",
+  "technical_gate": "First paired job must complete both configurations with finite gradients, full schedules and saved predictions before further dispatch",
+  "original_protocol_amendment": "FP16 T4 replaces BF16 requirement; shared scaler harness also instruments frozen-backbone A. Configuration and decision rules frozen before held-out scoring."
+}
