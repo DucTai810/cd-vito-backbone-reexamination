@@ -22,7 +22,7 @@ xx=[float(r['r']) for r in v];axes[0].plot(xx,[float(r['R']) for r in v],color='
 axes[0].axhline(.2,color='gray',ls=':',lw=.7);axes[0].axhline(.9,color='gray',ls='--',lw=.7)
 axes[0].set_ylabel('Recovery ratio R');axes[1].set_ylabel('Median weight change (%)');axes[1].set_yscale('log')
 for ax,title in zip(axes,['(a) Recovery','(b) Final weight change']):ax.set_xscale('log');ax.set_xlabel('Backbone/head LR ratio r');ax.set_title(title);ax.grid(alpha=.15)
-axes[0].legend(fontsize=8,loc='upper right',handlelength=1.1,labelspacing=.2,borderpad=.25);fig.savefig(out/'lr_and_drift.pdf');plt.close(fig)
+fig.legend(*axes[0].get_legend_handles_labels(),loc='outside upper center',ncol=4,fontsize=8,frameon=False,handlelength=1.1,columnspacing=1.0);fig.savefig(out/'lr_and_drift.pdf');plt.close(fig)
 t=read('data_fig4b_trajectories.csv');fig,axes=plt.subplots(1,2,figsize=(4.8,1.9),layout='constrained')
 for ax,d in zip(axes,domains[:2]):
     for r,c in zip(['0.00316','0.01','1'],colors):

@@ -50,7 +50,7 @@ def main():
     axes[0].set_yticks(range(8),[label(c) for c in cfgs])
     axes[0].set_ylim(7.6,-.6)
     fig.text(.63,.035,'Mean per-sampling R vs. A (95% CI)',ha='center',fontsize=FONT)
-    handles = [Line2D([],[],color=ink,marker='o',mfc=ink,ls='none',label='LCB >= 0.9'),
+    handles = [Line2D([],[],color=ink,marker='o',mfc=ink,ls='none',label='LCB ≥ 0.9'),
                Line2D([],[],color=ink,marker='o',mfc='white',ls='none',label='LCB < 0.9'),
                Line2D([],[],color=gray,ls='--',label='Recovery 0.9'),
                Line2D([],[],color=ink,lw=.7,label='Frozen A (R=1)')]

@@ -266,13 +266,13 @@
   {
     "source": "scripts/render_standalone_figures.py",
     "release": "scripts/render_figures.py",
-    "source_sha256": "27e9566e47ca386dbc6d75cacc446ea9a678bf727d3697e49e47f7acb5aaaa49",
+    "source_sha256": "0e3b782dcf27464f03466d5790b8deaa1e09e9ec6c9f5ed4b01bc64070972f4e",
     "transformation": "portable_figure_paths"
   },
   {
     "source": "scripts/render_iccies_intervals.py",
     "release": "scripts/render_intervals.py",
-    "source_sha256": "593f0dd03662297e747910770c7dad51f97632f2ad9a3372cd6a451d781dc4a7",
+    "source_sha256": "3a54a9a333e09fcbb4fb5212105cfde704b68ca9296a5d529e5394bb8d5f52b4",
     "transformation": "portable_interval_paths"
   },
   {
