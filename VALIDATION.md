@@ -8,6 +8,8 @@ Checked on 2026-11-01 using Python 3.14.4 in the existing analysis environment.
   detections and absent ground truth: passed against the frozen accumulator.
 - Eleven historical synthetic statistical checks: passed.
 - Recovery/drift and probe-trajectory figures regenerated from saved CSVs: passed.
+- All 24 E7/AdamW interval cells rendered from saved results with 8 pt labels;
+  manuscript domain-name capitalization and pooled-mean legend synchronized.
 - Common token/private-key/private-Drive-link scan of release text: passed.
 
 These checks do not rerun GPU training, verify every historical AP from raw

@@ -32,6 +32,7 @@ python scripts/verify_results.py
 python -m unittest discover -s tests -v
 python analysis/pc/kiem_thu.py
 python scripts/render_figures.py
+python scripts/render_intervals.py
 ```
 
 The verification script recomputes means and mean paired relative changes from
@@ -39,6 +40,9 @@ saved per-sampling AP summaries. It does not reconstruct image-bootstrap interva
 from summaries. AP tests compare accelerated accumulation to the frozen reference,
 including repeated images, ties and ignored detections, using synthetic matches.
 The statistical checks also use synthetic inputs. These are not GPU training tests.
+The figure renderers preserve the saved data; the interval renderer uses a 4.8-inch
+canvas and labels of at least 8 pt for the LNCS layout. Saved intervals are not
+recomputed by plotting.
 
 ## Training prerequisites and execution
 

@@ -266,7 +266,19 @@
   {
     "source": "scripts/render_standalone_figures.py",
     "release": "scripts/render_figures.py",
-    "source_sha256": "46688fda58d260374a6f58ac5159ef597f1eab3096767887c2820e2213cdedfb",
+    "source_sha256": "27e9566e47ca386dbc6d75cacc446ea9a678bf727d3697e49e47f7acb5aaaa49",
     "transformation": "portable_figure_paths"
+  },
+  {
+    "source": "scripts/render_iccies_intervals.py",
+    "release": "scripts/render_intervals.py",
+    "source_sha256": "593f0dd03662297e747910770c7dad51f97632f2ad9a3372cd6a451d781dc4a7",
+    "transformation": "portable_interval_paths"
+  },
+  {
+    "source": "results/TN7_TN13_intervals_20261101/summary.json",
+    "release": "results/intervals/development_intervals.json",
+    "source_sha256": "b2e78b78e9162b79b48d613439c2f2c67ad9f53ad9fa97cf01f93ced6da4dc75",
+    "transformation": "UTF-8 / LF normalization only"
   }
 ]
